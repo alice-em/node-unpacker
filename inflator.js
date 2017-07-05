@@ -84,9 +84,9 @@ exports.unpackFile = function(path, outpath) {
       },
       function(cb) {
         fs.access(outpath, fs.R_OK | fs.W_OK, function(err) {
-          if (err)
-            return cb('Cannot write in output folder');
-          return cb();
+          return err
+            ? cb('Cannot write in output folder')
+            : cb();
         });
       },
       function(cb) {
