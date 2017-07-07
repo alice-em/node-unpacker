@@ -32,11 +32,8 @@
   "homepage": "https://github.com/abaltra/node-unpacker",
   "dependencies": {
     "async": "^0.9.2",
-    "chai": "^4.0.2",
-    "chai-as-promised": "^4.3.0",
     "fs-extra": "^3.0.1",
     "is-there": "^4.4.2",
-    "mocha": "^1.21.5",
     "node-7z": "git+https://github.com/abaltra/node-7z.git",
     "q": "^1.5.0",
     "tarball-extract": "https://github.com/abaltra/tarball-extract/tarball/52fb622b360dc9d186c792e1dbbc53dd0800192f"
